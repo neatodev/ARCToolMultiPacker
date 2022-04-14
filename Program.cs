@@ -104,8 +104,6 @@ namespace ARCToolMultiPacker
             if (!argList[1].Equals("unpack") && !argList[1].Equals("repack"))
             {
 
-                Console.WriteLine(!argList[1].Equals("unpack") && !argList[1].Equals("repack"));
-
                 switch (argList[2])
                 {
                     case "unpack":
@@ -121,7 +119,6 @@ namespace ARCToolMultiPacker
                         break;
 
                     default:
-                        Console.WriteLine("Penis music");
                         throw new Exception();
 
                 }
