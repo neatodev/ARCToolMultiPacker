@@ -103,10 +103,6 @@ namespace ARCToolMultiPacker
         private static void DefineParams(string[] args)
         {
             string[] argList = args;
-            foreach (var arg in argList)
-            {
-                Console.WriteLine(arg);
-            }
 
             DefineGame(argList[0]);
 
